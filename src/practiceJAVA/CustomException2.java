@@ -7,7 +7,7 @@ public class CustomException2{
 		if(age>18){
 			throw new CustomException("You are adult");
 		}
-		System.out.println("Valid age");
+		System.out.println("Valid age - conflict Demo");
 	}
 	public static void main(String args[])
 	{
