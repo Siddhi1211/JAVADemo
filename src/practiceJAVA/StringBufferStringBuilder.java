@@ -40,6 +40,9 @@ public class StringBufferStringBuilder {
 			System.out.println("s3==s4");
 		}else
 			System.out.println("s3!=s4");
+	
+	String s = "Siddhi";
+	StringBuilder str = new StringBuilder().reverse();
+	System.out.println(str);
 	}
-
 }
